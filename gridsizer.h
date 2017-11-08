@@ -26,11 +26,14 @@ public:
   void onBt8 (wxCommandEvent&);
   void onBt9 (wxCommandEvent&);
   void onBt0 (wxCommandEvent&);
+  void onBtCls (wxCommandEvent&);
+  void onBtBack (wxCommandEvent&);
+  void onBtIgual (wxCommandEvent&);
 
   
 private:
-  int valor1;
-  int valor2;
+  string valor1;
+  string valor2;
   string operacion;
   int nClicks;
   	
